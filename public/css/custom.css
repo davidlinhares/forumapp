@@ -1,0 +1,60 @@
+.pattern-navbar {
+  background-color: #183446 !important;
+}
+
+.pattern-navbar-text-strong {
+  color: #101b39 !important;
+}
+
+.pattern-navbar-text {
+  color: #fff !important;
+}
+
+.pattern-body {
+  background-color: #e7eaec !important;
+}
+
+.pattern-body-text {
+  color: #fff !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/*LOGIN CARD STYLE*/
+.login_div {
+	position: absolute;
+    margin: auto;
+	top: 0px;
+	bottom: 150px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+    width: 300px;
+    height: 300px;
+}
+
+.login_form {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-panel h1, .card-panel h2, .card-panel h3, .card-panel h4, .card-panel h5, .card-panel h6 {
+  margin: 0 0 1.424rem 0;
+}
+
+/*FIX FOR NAVBAR-FIXED + SIDE-NAV*/
+.navbar-fixed { z-index: 999; }
+
+.bold {
+  font-weight: bold;
+}
+
+#welcome-left {
+  background-image: url('../images/default-welcome-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
